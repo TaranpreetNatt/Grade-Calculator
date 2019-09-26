@@ -27,7 +27,7 @@ div {
 
 .activities-text {
   margin-bottom: 30px;
-  color: red;
+  color: #AB373B;
   font-size: 20px;
   font-weight: 700;
 }
@@ -37,7 +37,7 @@ div {
 }
 
 .result-text {
-  color: red;
+  color: #AB373B;
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
@@ -47,7 +47,7 @@ th {
   background-color: #dddddd;
   text-align: left;
   padding: 5px;
-  font-weight: 700px;
+  font-weight: 900;
 }
 
 td {
@@ -55,6 +55,7 @@ td {
   background-color: #e9eff1;
   padding-bottom: 0px;
   padding-left: 5px;
+  font-weight: 500;
 }
 
 form {
@@ -77,12 +78,14 @@ input {
 }
 
 button {
-  background-color: red;
-  border: red;
+  background-color: #AB373B;
+  border: #AB373B;
   color: white;
   width: 90px;
   height: 40px;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .container {
@@ -94,6 +97,11 @@ button {
 }
 
 .button-mean {
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.button-weighted {
+  width: 120px;
 }
 
