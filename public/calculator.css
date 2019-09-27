@@ -1,0 +1,107 @@
+div {
+  background-color: #e9eff1;
+  width: 70%;
+  padding: 15px;
+  padding-bottom: 25px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.calc-table {
+  width: 100%;
+}
+
+.calc-table, th, td {
+  border: 2px solid #c3c3c3;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.grade-calculator-text {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 550;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.activities-text {
+  margin-bottom: 30px;
+  color: #AB373B;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.instruction-text {
+  margin-bottom: 30px;
+}
+
+.result-text {
+  color: #AB373B;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+th {
+  background-color: #dddddd;
+  text-align: left;
+  padding: 5px;
+  font-weight: 900;
+}
+
+td {
+  height: 50px;
+  background-color: #e9eff1;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+form {
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin-bottom: 0px;
+}
+
+input {
+  width: 90%;
+  height: 35px;
+  margin-top: 5px;
+  border: 1.5px solid;
+  border-color: #d4d5d6;
+}
+
+.weight-input {
+  width: 100%;
+}
+
+button {
+  background-color: #AB373B;
+  border: #AB373B;
+  color: white;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button-mean {
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.button-weighted {
+  width: 100px;
+}
+
