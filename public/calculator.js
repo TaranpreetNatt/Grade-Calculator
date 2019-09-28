@@ -23,8 +23,29 @@ total3.addEventListener('input', calculate3);
 grade4.addEventListener('input', calculate4);
 total4.addEventListener('input', calculate4);
 
-function mean(){
+function clearAll() {
+  document.getElementById("mean").innerHTML = "";
 
+  document.getElementById("percent1").innerHTML = "";
+  document.getElementById("percent2").innerHTML = "";
+  document.getElementById("percent3").innerHTML = "";
+  document.getElementById("percent4").innerHTML = "";
+
+  document.getElementById("weightForm1").reset();
+  document.getElementById("gradeForm1").reset();
+
+  document.getElementById("weightForm2").reset();
+  document.getElementById("gradeForm2").reset();
+
+  document.getElementById("weightForm3").reset();
+  document.getElementById("gradeForm3").reset();
+
+  document.getElementById("weightForm4").reset();
+  document.getElementById("gradeForm4").reset();
+  
+}
+
+function mean(){
   const grade1 = parseInt(document.getElementById("grade1").value);
   const total1 = parseInt(document.getElementById("total1").value);
 
@@ -68,7 +89,6 @@ function mean(){
 }
 
 function weight() {
-
   const grade1 = parseInt(document.getElementById("grade1").value);
   const total1 = parseInt(document.getElementById("total1").value);
   const weight1 = parseInt(document.getElementById("weight1").value);
@@ -117,7 +137,6 @@ function weight() {
 }
 
 function calculate1() {
-
   const grade = document.getElementById("grade1").value;
   const total = document.getElementById("total1").value;
 
@@ -146,7 +165,6 @@ function calculate1() {
 }
 
 function calculate2() {
-
   const grade = document.getElementById("grade2").value;
   const total = document.getElementById("total2").value;
 
@@ -175,7 +193,6 @@ function calculate2() {
 }
 
 function calculate3() {
-
   const grade = document.getElementById("grade3").value;
   const total = document.getElementById("total3").value;
 
@@ -204,7 +221,6 @@ function calculate3() {
 }
 
 function calculate4() {
-
   const grade = document.getElementById("grade4").value;
   const total = document.getElementById("total4").value;
 

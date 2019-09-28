@@ -22,15 +22,38 @@
           <td>Activity 1</td>
           <td>A1</td>
           <td>
-            <form>
-              <input type="text" class="weight-input" id="weight1">
+            <form id="weightForm1">
+              <input
+                type="text"
+                class="weight-input"
+                id="weight1"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"
+              >
             </form>
           </td>
           <td>
-            <form>
-              <input type="text" class="grade-input" id="grade1" name="grade">
+            <form id="gradeForm1">
+              <input
+                type="text"
+                class="grade-input"
+                id="grade1"
+                name="grade"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"              
+                >
               /
-              <input type="text" class="grade-input" id="total1" name="total">
+              <input
+                type="text"
+                class="grade-input"
+                id="total1"
+                name="total"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
             </form>
           </td>
           <td id="percent1"></td>
@@ -39,15 +62,38 @@
           <td>Activity 2</td>
           <td>A2</td>
           <td>
-            <form>
-              <input type="text" class="weight-input" id="weight2">
+            <form id="weightForm2">
+              <input
+                type="text"
+                class="weight-input" 
+                id="weight2"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"
+                >
             </form>
           </td>
           <td>
-            <form>
-              <input type="text" class="grade-input" id="grade2" name="grade">
+            <form id="gradeForm2">
+              <input
+                type="text"
+                class="grade-input"
+                id="grade2"
+                name="grade"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
               /
-              <input type="text" class="grade-input" id="total2" name="total">
+              <input
+                type="text"
+                class="grade-input"
+                id="total2"
+                name="total"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"
+                >
             </form>
           </td>
           <td id="percent2"></td>
@@ -56,15 +102,36 @@
           <td>Activity 3</td>
           <td>A3</td>
           <td>
-            <form>
-              <input type="text" class="weight-input" id="weight3">
+            <form id="weightForm3">
+              <input
+                type="text"
+                class="weight-input"
+                id="weight3"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
             </form>
           </td>
           <td>
-            <form>
-              <input type="text" class="grade-input" id="grade3">
+            <form id="gradeForm3">
+              <input
+                type="text"
+                class="grade-input"
+                id="grade3"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
               /
-              <input type="text" class="grade-input" id="total3">
+              <input
+                type="text"
+                class="grade-input"
+                id="total3"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
             </form>
           </td>
           <td id="percent3"></td>
@@ -73,15 +140,36 @@
           <td>Activity 4</td>
           <td>A4</td>
           <td>
-            <form>
-              <input type="text" class="weight-input" id="weight4">
+            <form id="weightForm4">
+              <input
+                type="text"
+                class="weight-input"
+                id="weight4"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
             </form>
           </td>
           <td>
-            <form>
-              <input type="text" class="grade-input" id="grade4">
+            <form id="gradeForm4">
+              <input
+                type="text"
+                class="grade-input"
+                id="grade4"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"            
+                >
               /
-              <input type="text" class="grade-input" id="total4">
+              <input
+                type="text"
+                class="grade-input"
+                id="total4"
+                placeholder="Enter a number"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Enter a number'"                
+                >
             </form>
           </td>
           <td id="percent4"></td>
@@ -98,6 +186,10 @@
 
         <button class="button-weighted" onclick="weight()">
           WEIGHTED
+        </button>
+
+        <button class="button-clearAll" onclick="clearAll()">
+          Clear All
         </button>
       </div>
   </div>
